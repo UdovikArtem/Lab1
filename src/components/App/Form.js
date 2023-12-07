@@ -15,7 +15,7 @@ class Form extends Component {
 
         this.state = this.initialState;
     }
-
+//Make changes in input
     handleChange = event => {
         const { name, value } = event.target;
 
@@ -23,7 +23,7 @@ class Form extends Component {
             [name] : value
         });
     }
-
+//Add new user
     onFormSubmit = (event) => {
         event.preventDefault();
         
