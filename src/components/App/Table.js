@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Загаловки таблицы
 const TableHeader = () => { 
     return (
         <thead>
@@ -14,6 +15,7 @@ const TableHeader = () => {
     );
 }
 
+//Тело таблицы
 const TableBody = props => { 
     const rows = props.characterData.map((row, index) => {
         return (
